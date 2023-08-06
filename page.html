@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Image to Open New Page</title>
+</head>
+<body>
+    <h1>Click the Image to Open the New Page</h1>
+    <img src="./img.jpg" alt="Image Description" id="clickable-image">
+
+    <script>
+        // Add a click event listener to the image
+        document.getElementById('clickable-image').addEventListener('click', function() {
+            // Redirect to the new page when the image is clicked
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
